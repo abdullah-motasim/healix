@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 280" role="img" aria-labelledby="mp-title mp-desc" width="260" height="280">
+  <title id="mp-title">A patient record kept under lock</title>
+  <desc id="mp-desc">A line drawing of a document or health record with a small padlock over it, representing privacy-first handling of client data.</desc>
+  <rect width="260" height="280" fill="#F3F2EC"/>
+
+  <!-- the record / document -->
+  <g fill="none" stroke="#4A4F55" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 48 h86 l40 40 v144 q0 10 -10 10 H70 q-10 0 -10 -10 V58 q0 -10 10 -10 Z"/>
+    <path d="M156 48 v40 h40"/>
+    <line x1="84" y1="104" x2="150" y2="104"/>
+    <line x1="84" y1="126" x2="172" y2="126"/>
+    <line x1="84" y1="148" x2="140" y2="148"/>
+  </g>
+
+  <!-- padlock, teal, sitting over the lower record -->
+  <g>
+    <path d="M118 182 v-14 a16 16 0 0 1 32 0 v14" fill="none" stroke="#0F5C57" stroke-width="2.6" stroke-linecap="round"/>
+    <rect x="104" y="182" width="60" height="46" rx="8" fill="#F3F2EC" stroke="#0F5C57" stroke-width="2.6"/>
+    <circle cx="134" cy="202" r="4.5" fill="#0F5C57"/>
+    <line x1="134" y1="202" x2="134" y2="214" stroke="#0F5C57" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+</svg>

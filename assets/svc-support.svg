@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img" aria-labelledby="ss-t ss-d" width="200" height="160">
+  <title id="ss-t">A support headset</title>
+  <desc id="ss-d">A line drawing of a headset with a microphone, representing an on-call technical person you can reach each week.</desc>
+  <rect width="200" height="160" fill="#F3F2EC"/>
+  <g fill="none" stroke="#4A4F55" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 92 V80 a42 42 0 0 1 84 0 v12"/>
+    <rect x="48" y="90" width="22" height="34" rx="7"/>
+    <rect x="130" y="90" width="22" height="34" rx="7"/>
+  </g>
+  <g fill="none" stroke="#0F5C57" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M141 124 v8 a10 10 0 0 1 -10 10 h-18"/>
+    <circle cx="106" cy="142" r="6"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img" aria-labelledby="sai-t sai-d" width="200" height="160">
+  <title id="sai-t">A message being drafted by an assistant</title>
+  <desc id="sai-d">A line drawing of two chat bubbles, the reply bubble marked with a small teal check, showing an assistant drafting answers.</desc>
+  <rect width="200" height="160" fill="#F3F2EC"/>
+  <g fill="none" stroke="#4A4F55" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 40 h86 q8 0 8 8 v34 q0 8 -8 8 H66 l-16 16 v-16 h-20 q-8 0 -8 -8 V48 q0 -8 8 -8 Z"/>
+    <path d="M52 58 h42 M52 72 h30" stroke-width="1.8"/>
+  </g>
+  <g fill="none" stroke="#0F5C57" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M170 92 h-70 q-8 0 -8 8 v26 q0 8 8 8 h40 l16 14 v-14 h14 q8 0 8 -8 v-26 q0 -8 -8 -8 Z"/>
+    <path d="M108 116 l8 8 l16 -18"/>
+  </g>
+</svg>

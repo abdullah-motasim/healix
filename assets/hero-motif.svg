@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="hm-title hm-desc" width="520" height="420">
+  <title id="hm-title">A cluttered desk of manual tasks giving way to one clean screen</title>
+  <desc id="hm-desc">A line illustration: on the left a stack of paper forms, a ringing desk phone, and a fax sheet pile up; on the right they resolve into a single tidy monitor showing an organized list, drawn in teal.</desc>
+  <rect width="520" height="420" fill="#F3F2EC"/>
+
+  <!-- LEFT: the clutter, in muted grey -->
+  <g fill="none" stroke="#B9B7AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- stacked paper forms, slightly askew -->
+    <rect x="46" y="250" width="120" height="150" rx="4" transform="rotate(-6 106 325)"/>
+    <rect x="60" y="236" width="120" height="150" rx="4" transform="rotate(3 120 311)"/>
+    <g transform="rotate(3 120 311)" stroke-width="1.6">
+      <line x1="76" y1="266" x2="164" y2="266"/>
+      <line x1="76" y1="286" x2="164" y2="286"/>
+      <line x1="76" y1="306" x2="140" y2="306"/>
+    </g>
+
+    <!-- desk phone with motion lines (ringing) -->
+    <rect x="54" y="150" width="104" height="60" rx="10"/>
+    <circle cx="80" cy="180" r="7"/>
+    <path d="M104 170 h36 M104 182 h36 M104 194 h24" stroke-width="1.6"/>
+    <path d="M40 150 q-10 -8 -6 -22 M168 150 q10 -8 6 -22" />
+
+    <!-- fax sheet curling out -->
+    <rect x="60" y="60" width="110" height="54" rx="6"/>
+    <path d="M80 60 v-26 h70 v26" />
+    <path d="M92 44 h46 M92 54 h46" stroke-width="1.6"/>
+  </g>
+
+  <!-- the sweep: clutter resolving to the right -->
+  <path d="M196 232 C280 236 300 150 388 160" fill="none" stroke="#0F5C57" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 7"/>
+
+  <!-- RIGHT: one tidy monitor, in teal -->
+  <g fill="none" stroke="#0F5C57" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="330" y="120" width="150" height="104" rx="8"/>
+    <line x1="405" y1="224" x2="405" y2="250"/>
+    <line x1="372" y1="250" x2="438" y2="250"/>
+    <!-- an organized checklist on screen -->
+    <path d="M352 150 l8 8 l14 -16" stroke-width="2"/>
+    <line x1="384" y1="152" x2="458" y2="152"/>
+    <path d="M352 176 l8 8 l14 -16" stroke-width="2"/>
+    <line x1="384" y1="178" x2="458" y2="178"/>
+    <path d="M352 202 l8 8 l14 -16" stroke-width="2"/>
+    <line x1="384" y1="204" x2="440" y2="204"/>
+  </g>
+</svg>

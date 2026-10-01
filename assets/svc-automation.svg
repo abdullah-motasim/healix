@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img" aria-labelledby="sa-t sa-d" width="200" height="160">
+  <title id="sa-t">Two boxes linked by an automated flow</title>
+  <desc id="sa-d">A line drawing of two system boxes connected by an arrow that loops through a small gear, showing data moving between systems on its own.</desc>
+  <rect width="200" height="160" fill="#F3F2EC"/>
+  <g fill="none" stroke="#4A4F55" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="22" y="56" width="48" height="48" rx="6"/>
+    <rect x="130" y="56" width="48" height="48" rx="6"/>
+  </g>
+  <g fill="none" stroke="#0F5C57" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 80 h40 m0 0 l-10 -7 m10 7 l-10 7"/>
+    <circle cx="100" cy="44" r="11"/>
+    <path d="M100 29 v-6 M100 65 v-6 M85 44 h-6 M121 44 h-6 M89 33 l-4 -4 M115 33 l4 -4 M89 55 l-4 4 M115 55 l4 4"/>
+  </g>
+</svg>

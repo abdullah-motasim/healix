@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Healix</title>
+  <meta name="description" content="Book a free 20-minute tech check with Healix. Tell us what's eating your time and we'll give you an honest read on what's worth automating.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact — Healix">
+  <meta property="og:description" content="Book a free 20-minute tech check. Serving clients across Canada and the US.">
+  <meta property="og:site_name" content="Healix">
+  <meta property="og:locale" content="en_CA">
+
+  <!-- Fonts: two families only -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Healix</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Page intro -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Contact</p>
+        <h1>Tell us what's eating your time.</h1>
+        <p class="support">The first conversation is free and lasts about twenty minutes. We'll give you an honest read on what's worth doing and what isn't.</p>
+      </div>
+    </section>
+
+    <!-- Form + details -->
+    <section class="section" aria-labelledby="form-title">
+      <div class="wrap contact-grid">
+
+        <div>
+          <h2 id="form-title">Book a free consult</h2>
+          <form id="booking-form" novalidate>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="organization">Organization <span class="hint">(optional)</span></label>
+              <input type="text" id="organization" name="organization" autocomplete="organization">
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="message">What's eating your time?</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <!-- Honeypot: hidden from people, catches bots -->
+            <input type="checkbox" name="botcheck" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <button type="submit" class="btn btn-primary">Send</button>
+            <p id="form-error" class="form-error" role="alert" hidden></p>
+          </form>
+
+          <div id="form-confirm" class="form-confirm" hidden>
+            <h2>Thanks<span id="confirm-name"></span>, we've got it.</h2>
+            <p>We'll be in touch within one business day to find a time. No pitch, no pressure.</p>
+          </div>
+        </div>
+
+        <aside class="contact-aside" aria-label="Other ways to reach us">
+          <dl>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:hello@healix.example" data-email>hello@healix.example</a></dd>
+            </div>
+            <div>
+              <dt>Phone</dt>
+              <dd data-phone>+1 (XXX) XXX-XXXX</dd>
+            </div>
+          </dl>
+        </aside>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-cols">
+        <div class="footer-col footer-about">
+          <span class="foot-brand">Healix</span>
+          <p>Practical automation and AI for small practices, academics, and professionals.</p>
+          <p>Toronto, ON<br>Serving clients across Canada &amp; the US</p>
+        </div>
+        <nav class="footer-col" aria-label="Footer">
+          <h2 class="footer-head">Explore</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h2 class="footer-head">Contact</h2>
+          <ul>
+            <li><a href="mailto:hello@healix.example" data-email>hello@healix.example</a></li>
+            <li data-phone>+1 (XXX) XXX-XXXX</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="disclaimer">© <span id="year">2026</span> Healix. Healix provides administrative and technical services only not clinical or medical services.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/form.js"></script>
+</body>
+</html>

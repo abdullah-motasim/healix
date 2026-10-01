@@ -1,0 +1,9 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Kiro workspace tooling (not part of the site)
+.kiro/
+
+# Node (not used by the site, just in case)
+node_modules/

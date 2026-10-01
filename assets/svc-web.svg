@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img" aria-labelledby="sw-t sw-d" width="200" height="160">
+  <title id="sw-t">A browser window with a booking button</title>
+  <desc id="sw-d">A line drawing of a browser window showing a few content lines and a small teal button, representing a clean website with online booking.</desc>
+  <rect width="200" height="160" fill="#F3F2EC"/>
+  <g fill="none" stroke="#4A4F55" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="30" y="34" width="140" height="92" rx="8"/>
+    <line x1="30" y1="56" x2="170" y2="56"/>
+    <circle cx="44" cy="45" r="2.5" fill="#4A4F55" stroke="none"/>
+    <circle cx="54" cy="45" r="2.5" fill="#4A4F55" stroke="none"/>
+    <circle cx="64" cy="45" r="2.5" fill="#4A4F55" stroke="none"/>
+    <path d="M46 74 h70 M46 88 h92 M46 102 h54" stroke-width="1.8"/>
+  </g>
+  <rect x="118" y="94" width="40" height="20" rx="4" fill="#0F5C57"/>
+</svg>

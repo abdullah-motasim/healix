@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" role="img" aria-labelledby="ac-t ac-d" width="240" height="200">
+  <title id="ac-t">Two speech bubbles in conversation</title>
+  <desc id="ac-d">A line drawing of two overlapping speech bubbles, one marked with a small teal dot, representing the conversation Healix started from.</desc>
+  <rect width="240" height="200" fill="#F3F2EC"/>
+  <g fill="none" stroke="#4A4F55" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 44 h96 q10 0 10 10 v44 q0 10 -10 10 H78 l-20 20 v-20 H40 q-10 0 -10 -10 V54 q0 -10 10 -10 Z"/>
+    <path d="M60 66 h56 M60 82 h40" stroke-width="1.8"/>
+  </g>
+  <g fill="none" stroke="#0F5C57" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M200 96 h-74 q-10 0 -10 10 v34 q0 10 10 10 h40 l20 18 v-18 h14 q10 0 10 -10 v-34 q0 -10 -10 -10 Z"/>
+  </g>
+  <circle cx="150" cy="123" r="3.5" fill="#0F5C57"/>
+  <circle cx="166" cy="123" r="3.5" fill="#0F5C57"/>
+  <circle cx="182" cy="123" r="3.5" fill="#0F5C57"/>
+</svg>
